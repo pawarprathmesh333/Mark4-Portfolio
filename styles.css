@@ -1,20 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
 body{
-    color:crimson;
+    font-family: 'Barlow', sans-serif;
 }
-h1{
-    color : blue;
+.container{
+    max-width: 600px;
+    margin:auto;
 }
-h2{
-    color: brown;
+.fuild-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-
-/* styling by id */
-#unique{
-    color:darksalmon;
-}
-
-/* styling by class */
-.para{
-    color: green;
-}
-
