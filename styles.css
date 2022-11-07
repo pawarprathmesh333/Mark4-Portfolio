@@ -1,0 +1,20 @@
+body{
+    color:crimson;
+}
+h1{
+    color : blue;
+}
+h2{
+    color: brown;
+}
+
+/* styling by id */
+#unique{
+    color:darksalmon;
+}
+
+/* styling by class */
+.para{
+    color: green;
+}
+
