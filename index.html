@@ -33,51 +33,54 @@
     <hr>
 
     <h2>@Links</h2>
-    <a href="www.google.com">Search  here</a>
+    <a href="www.google.com" class="primary-link link">Primary Link</a>
+    <a href="www.google.com" class="link">Secondary Link</a>
+
     <hr>
 
     <h2>@Lists</h2>
     <h3>Unordered List</h3>
-    <ul>
+    <p>this list will not have bullets.</p>
+    <ul class="non-bullet">
         <li>fist content</li>
         <li>second content</li>
         <li>third content</li>
     </ul>
 
     <h3>Inline List</h3>
-    <ul>
-        <li>first</li>
-        <li>second</li>
-        <li>third</li>
+    <ul class="non-bullet ">
+        <li class="list-inline">first</li>
+        <li class="list-inline">second</li>
+        <li class="list-inline">third</li>
     </ul>
     <h3>Ordered List</h3>
-    <ol>
+    <ol reversed>
         <li>first</li>
         <li>doubled</li>
         <li>tripled</li>
     </ol>
     <hr>
     <h2>@Nav</h2>
-    <nav>
-        <div class="para">I am navigationss</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation">
+        <div class="nav-brand">I am navigationss</div>
+        <ul class="non-bullet">
+            <li class=" list-inline">
+                <a class="nav-link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class="non-bullet list-inline">
+                <a class="nav-link " href="/">Products</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="non-bullet list-inline">
+                <a class="nav-link " href="/">About</a>
             </li>
         </ul>
     </nav>
     <hr>
 
     <h2>@header</h2>
-    <header>
-        <img src="Images/dog.svg">
-        <h1>Heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="Images/dog.svg"/>
+        <h1 class="hero-heading">My name is <span class="hero-heading-span">Prathmesh</span></h1>
     </header>
     <hr>
 
