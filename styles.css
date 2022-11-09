@@ -6,6 +6,7 @@
      --secondary-link: #ccfbf1;
     --gray-color : #404040;
     --off-white-color : #f4f4f5;
+    --blogpost-header : #f0fdfa;
 }
 
 body{
@@ -53,7 +54,7 @@ hr{
 .navigation{
     padding: 1rem 1rem;
     background-color: var(--primary-color);
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
 }
 .nav-link{
     text-decoration: none;
@@ -114,9 +115,44 @@ hr{
     padding: 2rem;
     color: white;
     text-align: center;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 2rem;
 }
 .footer .footer-heading {
     font-size: large;
     font-weight: bold;
+}
+
+/*blog*/
+
+.blog-section h1 {
+    text-align: left;
+    padding-bottom: 0%;
+}
+small {
+    font-size :x-small;
+}
+
+/*blogpost*/
+.blogpost-section{
+
+    background-color: var(--blogpost-header);
+    padding: 2rem 0rem;
+    border-bottom-left-radius: 2rem;
+
+}
+.blogpost-section  p, small {
+    padding: 0rem;
+    margin: 0%;
+}
+.blogpost-header-container a {
+   float: right;
+}
+.blogpost-container{
+    padding: 2rem 0rem;
+}
+.blogpost-section-body{
+    max-width: 800px;
+    margin: auto;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
