@@ -4,107 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component library</title>
-    <link href="styles.css" rel="stylesheet"/> 
+    <title>home | prathmesh's portfolio</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>Component library for Prathmesh</h1>
-    <p class="para">here on this html page we will create component library for our website.</p>
-    <hr>
-
-    <h2>@Typography</h2>
-
-    <h1>biggest header</h1>
-    <h2>second biggest header</h2>
-    <aside>
-        <p>Here advertise will apear.</p>
-    </aside>
-    <p class="para">this tab is used for creating paragraph on web page.</p>
-    <small>this is relatively smaller text.</small>
-    <hr>
-
-    <h2>@containers</h2>
-
-    <h3>fuild containers</h3>
-    <div class="fuild-container">this is fuild container</div>
-
-    <h3>center container</h3>
-    <div class="container">this will be center container this will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center containerthis will be center container</div>
-    <hr>
-
-    <h2>@Links</h2>
-    <a href="www.google.com" class="primary-link link">Primary Link</a>
-    <a href="www.google.com" class="link">Secondary Link</a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-    <h3>Unordered List</h3>
-    <p>this list will not have bullets.</p>
-    <ul class="non-bullet">
-        <li>fist content</li>
-        <li>second content</li>
-        <li>third content</li>
-    </ul>
-
-    <h3>Inline List</h3>
-    <ul class="non-bullet ">
-        <li class="list-inline">first</li>
-        <li class="list-inline">second</li>
-        <li class="list-inline">third</li>
-    </ul>
-    <h3>Ordered List</h3>
-    <ol reversed>
-        <li>first</li>
-        <li>doubled</li>
-        <li>tripled</li>
-    </ol>
-    <hr>
-    <h2>@Nav</h2>
     <nav class="navigation">
-        <div class="nav-brand">I am navigationss</div>
+        <div class="nav-brand">Prathmesh's portfolio</div>
         <ul class="non-bullet">
             <li class=" list-inline">
-                <a class="nav-link link-active" href="/">Home</a>
+                <a class="nav-link link-active" href="index.html">Home</a>
             </li>
             <li class="non-bullet list-inline">
-                <a class="nav-link " href="/">Products</a>
+                <a class="nav-link " href="/projects.html">Projects</a>
             </li>
             <li class="non-bullet list-inline">
-                <a class="nav-link " href="/">About</a>
+                <a class="nav-link " href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
 
-    <h2>@header</h2>
     <header class="hero">
-        <img class="hero-img" src="Images/dog.svg"/>
-        <h1 class="hero-heading">My name is <span class="hero-heading-span">Prathmesh</span></h1>
+        <img class="hero-img" src="Images/hero.svg"/>
+        <h1 class="hero-heading">Being <span class="hero-heading-span">Adarsh balak</span></h1>
     </header>
-    <hr>
 
-    <h2>@Section</h2>
-    <section>
-        <h3>White Section</h3>
-        <p>this is section with white background.</p>
+    <section class="section ow-section">
+        <div class="container fuild-container">
+            <h1>Technologies</h1>
+        <p>I have knowledge about SQL, Java and currently I am learning HTML5, CSS3, NodeJS, Github with neog camp.</p>
+           
+        </div>
     </section>
-    <section>
-        <h3>Offwhite Section</h3>
-        <p>this section will have offwhite background.</p>
+    <section class="section">
+        <div class="container fuild-container">
+            <h1>Projects</h1>
+        <p>I started my web devlopment journey in November. Till now I have created two  CLI applications using NodeJS and hosted one website.</p>
+        <p>Click on the link below to see my Projects in details.</p>
+            <a href="/projects.html" class="primary-link link">See projects</a>
+        </div>
     </section>
-    <hr>
+    <section class="section ow-section">
+        <div class="container fuild-container">
+            <h1>Blogs</h1>
+        <p>Technology is forever changing, and there are always new pieces of technology to replace obsolete ones. Tons of people enjoy reading tech blogs on a daily basis. The niche continues to grow with each passing year, which is why it’s such a great idea to start a tech blog in 2020.</p>
+        <p>Click on the link below to check all the blogs.</p>
+            <a href="/blogs.html" class="link">See blogs</a>
+        </div>
+    </section>
 
-    <h2>@Footer</h2>
-    <footer>
-        <div>this is big text in footer</div>
+    <footer class="footer">
+        <div class="footer-heading">Social handles</div>
         
-        <ul>
-            <li>inine one</li>
-            <li>inline two</li>
-            <li>inline three</li>
+        <ul class="non-bullet">
+            <li class="list-inline"><a class="nav-link" href="https://twitter.com/Prathme17234815">twitter</a></li>
+            <li class="list-inline"><a class="nav-link" href="https://in.linkedin.com/in/prathmesh-pawar-5453b617b?trk=people-guest_people_search-card">linkedin</a></li>
+            <li class="list-inline"><a class="nav-link" href="https://www.instagram.com/prathmesh8004pm/">instagram</a></li>
         </ul>
-
     </footer>
 </body>
 </html>
